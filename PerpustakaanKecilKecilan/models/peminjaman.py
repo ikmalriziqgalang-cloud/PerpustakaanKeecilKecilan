@@ -1,5 +1,5 @@
 from datetime import datetime, timedelta
-from buku import Kategori
+from models.buku import Kategori
 
 LAMA_PINJAM = 7
 LAMA_PERPANJANG = 7
