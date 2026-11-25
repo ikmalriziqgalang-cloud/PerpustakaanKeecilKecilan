@@ -45,7 +45,6 @@ DATA_MAJALAH = [
     ("MAJ-003", "J033", "Majalah Kuliner Nusantara Edisi 1", "P18", "PB09", 30000),
 ]
 
-# Pemetaan ID penulis -> nama (supaya pencarian by nama penulis bisa jalan)
 NAMA_PENULIS = {
     "P01": "Andrea Hirata",
     "P02": "Pramoedya Ananta Toer",
@@ -54,7 +53,6 @@ NAMA_PENULIS = {
     "P05": "Ahmad Tohari",
 }
 
-# Dikosongkan: buku yang "sedang dipinjam" harus tercatat lewat class Peminjaman
 CONTOH_DIPINJAM = []
 
 FORMAT_BARIS = "{:<8} {:<8} {:<46} {:<10} {:<11} {:<13} {:>11} {:<9}"
